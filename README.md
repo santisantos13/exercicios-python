@@ -23,4 +23,4 @@ como material de consulta pra mim mesmo no futuro.
 ## 🔗 Outros projetos
 
 Confira meu [perfil](https://github.com/santisantos13) para projetos
-mais completos, como o [python-stock-manager](link-do-repo).
+mais completos, como o [python-stock-manager](https://github.com/santisantos13/python-stock-manager).
