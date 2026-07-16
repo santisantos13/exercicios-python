@@ -1,15 +1,7 @@
 import sqlite3
 
-# ==============================
-# CONEXÃO COM O BANCO
-# ==============================
-
 conexao = sqlite3.connect("sistema.db")
 cursor = conexao.cursor()
-
-# ==============================
-# CRIANDO TABELA
-# ==============================
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS usuarios (
@@ -20,10 +12,6 @@ CREATE TABLE IF NOT EXISTS usuarios (
 """)
 
 conexao.commit()
-
-# ==============================
-# CREATE
-# ==============================
 
 
 def criar_usuario():
@@ -43,11 +31,6 @@ def criar_usuario():
     print("Usuário cadastrado com sucesso!")
 
 
-# ==============================
-# READ
-# ==============================
-
-
 def listar_usuarios():
     cursor.execute("SELECT * FROM usuarios")
 
@@ -63,11 +46,6 @@ def listar_usuarios():
         print(f"Nome: {usuario[1]}")
         print(f"Idade: {usuario[2]}")
         print("-" * 20)
-
-
-# ==============================
-# UPDATE
-# ==============================
 
 
 def atualizar_usuario():
@@ -90,11 +68,6 @@ def atualizar_usuario():
     print("Usuário atualizado!")
 
 
-# ==============================
-# DELETE
-# ==============================
-
-
 def deletar_usuario():
     id_usuario = int(input("Digite o ID do usuário que deseja deletar: "))
 
@@ -110,10 +83,6 @@ def deletar_usuario():
 
     print("Usuário deletado!")
 
-
-# ==============================
-# MENU PRINCIPAL
-# ==============================
 
 while True:
 
@@ -144,9 +113,5 @@ while True:
 
     else:
         print("Opção inválida!")
-
-# ==============================
-# FECHANDO CONEXÃO
-# ==============================
 
 conexao.close()
