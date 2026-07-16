@@ -20,7 +20,11 @@ O repositório é organizado por tema:
 Manter consistência na prática, documentar meu progresso e servir
 como material de consulta pra mim mesmo no futuro.
 
+## ⭐ Destaque
+
+**[`0_CRUD.py`](banco-de-dados/0_CRUD.py)** — Sistema completo de gerenciamento de usuários com SQLite3. Implementa as operações CRUD (Create, Read, Update, Delete) com código limpo e bem estruturado. Um ótimo exemplo de como trabalhar com bancos de dados em Python.
+
 ## 🔗 Outros projetos
 
 Confira meu [perfil](https://github.com/santisantos13) para projetos
-mais completos, como o [python-stock-manager](https://github.com/santisantos13/python-stock-manager).
+mais completos, como a [Agenda](listas/13_Agenda.py) com validações robustas.
