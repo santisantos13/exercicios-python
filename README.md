@@ -11,7 +11,6 @@ O repositório é organizado por tema:
 - `listas/` — manipulação e operações com listas
 - `strings/` — manipulação de strings
 - `funcoes/` — definição e uso de funções
-- `poo/` — programação orientada a objetos
 - `logica-condicional/` — estruturas condicionais e de repetição
 - `banco-de-dados/` — estruturas de bancos de dados, SQLite/MySQL
 
